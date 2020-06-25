@@ -1,0 +1,68 @@
+<html>
+    <head>
+        <style>
+            body{
+                padding-left: 450px;
+                padding-top: 120px;
+                padding-right: 450px;
+                padding-bottom: 120px;
+                background-color: teal; 
+                
+            }
+            #table{
+
+                color: white;
+                font-weight: bold;
+                border: 3px black solid;
+                background-image: linear-gradient(red,green);
+                text-align: center;   
+                border-radius: 5px;
+                height: 350px;
+                width: 350px;
+                row-gap: 5px;
+                padding-bottom: 20px;
+                padding-top: 20px;
+            }
+            button {
+                background-color: red;
+            }
+            button:hover {
+                background-image: linear-gradient(darkgreen,lightgreen);
+            }
+            .inp{
+                  height: 25px;
+                  width: 250px; 
+                  border-radius: 5px;
+            }
+            #line {
+                color: yellow;
+                letter-spacing: 5px;
+            }
+
+        </style>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+    <body>
+        <form action="" method="POST"></form>
+            <table id="table">
+                <tr>
+                        <td><h3 id="line">Signup</h3></td>
+                </tr>
+                <tr>
+                        <td><i class="fa fa-id-card" aria-hidden="true"></i>&nbsp;<input class="inp" type="text" placeholder="Full Name"></td>
+                </tr>
+                <tr>
+                        <td><i class="fa fa-envelope-o" aria-hidden="true"></i>&nbsp;<input class="inp" type="email" placeholder="Email"></td>
+                </tr>
+                <tr>        
+                        <td><i class="fa fa-user" aria-hidden="true"></i>&nbsp;<input class="inp" type="text" placeholder="username"></td>
+                </tr>
+                <tr>  
+                        <td><i class="fa fa-lock" aria-hidden="true"></i> &nbsp;<input class="inp" type="password" placeholder="Password"></td>
+                </tr>
+                <tr>
+                        <td><button>Submit</button></td>
+                </tr>
+            </table>
+    </body>
+</html>
